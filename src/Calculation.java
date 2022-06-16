@@ -1,8 +1,24 @@
 public class Calculation {
+
+    public int i = 1;
+
     public static void main(String[] args) {
         int[][] A={{1,2,3},{3,4,5}};
         int[][] B={{5,6,7},{4,5,9}};
         print(add(A,B));
+    }
+
+
+    public static int[][] multiply(int[][] a,int[][]b){
+        for (int i = 0; i < a.length; i++) {
+            
+        }
+        int[][] arr = new int [3][3];
+        return arr;
+    }
+
+    public static void hello() {
+
     }
 
     public static int[][] add(int[][] a, int[][] b){
